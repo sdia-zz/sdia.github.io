@@ -27,12 +27,23 @@ a:hover {
 html,
 body {
   background: url('double_bass.jpg') no-repeat center center fixed;
-  height: 100%;
-  background-color: #333;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color:#fff;
+    height:100%;
+    background-color:#333;
 }
+
+/* body { */
+/*   height: 100%; */
+/*   background-color: #333; */
+/* } */
+
 body {
   color: #fff;
-  text-align: center;
+  text-align: right;
   text-shadow: 0 1px 3px rgba(0,0,0,.5);
 }
 
