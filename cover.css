@@ -70,6 +70,10 @@ body {
   padding: 30px;
 }
 
+/* notice and copyright. */
+.notice {
+    font-size: 10px;
+}
 
 /*
  * Header
